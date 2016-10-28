@@ -27,7 +27,7 @@
   "main": "index.js",
   "scripts": {
     "build": "babel index.js --out-file build.js",
-    "test": "mocha --require babel-core/register"
+    "test": "mocha tests --recursive --require babel-core/register"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
