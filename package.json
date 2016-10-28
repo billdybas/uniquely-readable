@@ -1,0 +1,38 @@
+{
+  "name": "uniquely-readable",
+  "version": "1.0.0",
+  "description": "A handy-dandy library for generating human-readable identifiers",
+  "keywords": [
+    "human-readable",
+    "library",
+    "id",
+    "identifier",
+    "uid"
+  ],
+  "homepage": "https://github.com/billdybas/uniquely-readable#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billdybas/uniquely-readable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/billdybas/uniquely-readable/issues"
+  },
+  "contributors": [
+    {
+      "name": "Bill Dybas",
+      "url": "https://github.com/billdybas"
+    }
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js --out-file build.js",
+    "test": "mocha --require babel-core/register"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "mocha": "^3.1.2"
+  }
+}
