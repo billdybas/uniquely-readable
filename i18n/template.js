@@ -1,8 +1,3 @@
-export default {
-  adjectives,
-  nouns
-};
-
 const adjectives = {
   adorable: '',
   aggressive: '',
@@ -108,4 +103,9 @@ const nouns = {
   vulture: '',
   whale: '',
   zebra: ''
+};
+
+export default {
+  adjectives,
+  nouns
 };
