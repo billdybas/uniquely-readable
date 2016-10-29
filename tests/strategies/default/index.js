@@ -1,4 +1,4 @@
-import { generate } from '../../../lib/strategies/default';
+import { generate } from '../../../src/strategies/default';
 import assert from 'assert';
 
 describe('Default Strategy', function() {

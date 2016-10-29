@@ -22,7 +22,7 @@ class UniquelyReadable {
     }
 
     // Load the adjectives and nouns
-    const lang = require(`../i18n/${config.lang}`).default;
+    const lang = require(`./i18n/${config.lang}`).default;
     config.adjectives = lang.adjectives;
     config.nouns = lang.nouns;
 

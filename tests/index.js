@@ -1,4 +1,4 @@
-import UniquelyReadable from '../lib';
+import UniquelyReadable from '../src';
 import assert from 'assert';
 
 describe('UniquelyReadable', function() {

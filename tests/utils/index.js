@@ -1,4 +1,4 @@
-import { getRandomArrayElement, getRandomObjectValue, capitalizeFirstLetter } from '../../lib/utils';
+import { getRandomArrayElement, getRandomObjectValue, capitalizeFirstLetter } from '../../src/utils';
 import assert from 'assert';
 
 describe('Utils', function() {
